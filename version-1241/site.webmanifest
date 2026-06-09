@@ -1,0 +1,9 @@
+{
+  "name": "口碑日韩好剧",
+  "short_name": "口碑日韩好剧",
+  "description": "提供日韩最新影片与热播剧集的免费在线观看服务。视频资源高清，内容丰富，涵盖多种影视类型与热门推荐。",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e"
+}

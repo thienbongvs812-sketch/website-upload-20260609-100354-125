@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>影片搜索-口碑日韩好剧</title>
+    <meta name="description" content="口碑日韩好剧全站影片搜索，支持关键词、分类、类型筛选。">
+    <meta name="keywords" content="日韩影视,免费在线观看,最新影片,热播剧集,高清资源,内容丰富,影视类型,热门推荐,影片搜索,影视搜索">
+    <meta property="og:title" content="影片搜索-口碑日韩好剧">
+    <meta property="og:description" content="口碑日韩好剧全站影片搜索，支持关键词、分类、类型筛选。">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#0f766e">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="口碑日韩好剧">
+          <span class="brand-mark">▶</span>
+          <span class="brand-text">
+            <strong>口碑日韩好剧</strong>
+            <small>高清视频在线播放</small>
+          </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+          <a class="nav-link " href="index.html">首页</a>
+          <a class="nav-link " href="categories.html">分类</a>
+          <a class="nav-link " href="ranking.html">排行榜</a>
+          <a class="nav-link is-active" href="search.html">搜索</a>
+        </nav>
+        <form class="top-search" action="search.html" method="get">
+          <input type="search" name="q" placeholder="搜索影片、类型、地区" aria-label="搜索影片">
+          <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开菜单" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile-panel" data-mobile-panel>
+        <form class="mobile-search" action="search.html" method="get">
+          <input type="search" name="q" placeholder="搜索影片">
+          <button type="submit">搜索</button>
+        </form>
+        <nav aria-label="移动端导航">
+          <a href="index.html">首页</a>
+          <a href="categories.html">分类总览</a>
+          <a href="ranking.html">排行榜</a>
+          <a href="categories/rihan-hot.html">口碑日韩</a>
+          <a href="categories/new-cinema.html">最新影片</a>
+          <a href="categories/hot-drama.html">热播剧集</a>
+          <a href="categories/romance-drama.html">爱情剧情</a>
+          <a href="categories/suspense-horror.html">悬疑惊悚</a>
+          <a href="categories/action-adventure.html">动作冒险</a>
+          <a href="categories/comedy-animation.html">喜剧动画</a>
+          <a href="categories/classic-choice.html">经典精选</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="sub-hero">
+        <span>Search</span>
+        <h1>搜索影片</h1>
+        <p>输入影片名、地区、年份、类型或标签，快速查找全站影片详情页。</p>
+      </section>
+      <section class="page-section search-layout" data-search-page>
+        <form class="filter-box wide search-page-form" data-search-form>
+          <input type="search" name="q" placeholder="输入关键词" data-search-input>
+          <select data-search-category>
+            <option value="">全部分类</option>
+              <option value="口碑日韩">口碑日韩</option>
+              <option value="最新影片">最新影片</option>
+              <option value="热播剧集">热播剧集</option>
+              <option value="爱情剧情">爱情剧情</option>
+              <option value="悬疑惊悚">悬疑惊悚</option>
+              <option value="动作冒险">动作冒险</option>
+              <option value="喜剧动画">喜剧动画</option>
+              <option value="经典精选">经典精选</option>
+          </select>
+          <select data-search-type>
+            <option value="">全部类型</option>
+            <option value="电影">电影</option>
+            <option value="电视剧">电视剧</option>
+            <option value="剧集">剧集</option>
+            <option value="动画">动画</option>
+          </select>
+          <button type="submit">搜索</button>
+        </form>
+        <div class="search-summary" data-search-summary>请输入关键词开始搜索。</div>
+        <div class="movie-grid large" data-search-results></div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <section>
+          <div class="footer-brand">
+            <span class="brand-mark">▶</span>
+            <strong>口碑日韩好剧</strong>
+          </div>
+          <p>提供日韩最新影片与热播剧集的免费在线观看服务。视频资源高清，内容丰富，涵盖多种影视类型与热门推荐。</p>
+          <p class="footer-stat">已收录 2000 部影片，支持分类浏览、排行榜推荐与在线播放。</p>
+        </section>
+        <section>
+          <h2>快速入口</h2>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="categories.html">分类总览</a></li>
+            <li><a href="ranking.html">热播排行榜</a></li>
+            <li><a href="search.html">搜索影片</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>影视分类</h2>
+          <ul>
+              <li><a href="categories/rihan-hot.html">口碑日韩</a></li>
+              <li><a href="categories/new-cinema.html">最新影片</a></li>
+              <li><a href="categories/hot-drama.html">热播剧集</a></li>
+              <li><a href="categories/romance-drama.html">爱情剧情</a></li>
+              <li><a href="categories/suspense-horror.html">悬疑惊悚</a></li>
+              <li><a href="categories/action-adventure.html">动作冒险</a></li>
+              <li><a href="categories/comedy-animation.html">喜剧动画</a></li>
+              <li><a href="categories/classic-choice.html">经典精选</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>服务支持</h2>
+          <ul>
+            <li><a href="support.html">播放帮助</a></li>
+            <li><a href="copyright.html">版权声明</a></li>
+            <li><a href="about.html">关于本站</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 口碑日韩好剧</span>
+      </div>
+    </footer>
+    <script src="assets/js/search-index.js"></script>
+    <script src="assets/js/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+  </body>
+</html>
